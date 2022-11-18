@@ -55,7 +55,7 @@ This tutorial outlines the process of retrieving and observing IP addresses whil
 
 
 <p>
-<img src = "https://imgur.com/290CTCp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src = "https://imgur.com/3HF3a21.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <p>
@@ -85,6 +85,14 @@ Browse to https://whatismyipaddress.com/ and take note of this in a text file
 </p>
 <br />
 
+<p>
+<img src="https://imgur.com/8UHGoeX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+<p>
+<img src="https://imgur.com/KRBIf5T.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
 
 <p>
 5. Try browsing to Google, Disney, and/or Amazon and see if there is anything different about the sites in relation to the location of your VPN server. For example, the language or URL may be different.
@@ -97,49 +105,3 @@ Browse to https://whatismyipaddress.com/ and take note of this in a text file
 </p>
 <p>
 6. Its now time to clean up your Azure resources. Make sure to delete the resource group you created in Step 2 and ensure the resources/Resource Group has been deleted.
-
-
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/SbhSS6V.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-7. Go Back To IIS, Sites->Default->osTicket, Double click PHP Manager, Enable PHP_imap.dll, Enable PHP_intl.dll, Enable PHP_opcache.dll
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/wVSvcC6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-8. Rename File To OST-Config.PHP And Assign Permissions To File.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/U0zZqC1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-9. Continue Setting Up OsTicket In Browser.
-  -Name Help Desk
-  -Add Default Email
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/IdTzZWd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-10. Download And Install HeidiSQL.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/0LOpcLJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-11. OsTicket Is Ready. 
-</p>
-<br />
