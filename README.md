@@ -101,4 +101,9 @@ Browse to https://whatismyipaddress.com/ and take note of this in a text file
 <br />
 
 
+<p>
+<img src="https://imgur.com/beY8Kft.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+
 6. Its now time to clean up your Azure resources. Make sure to delete the resource group and resources you created in Step 2 and ensure to disconnect from the Proton VPN server.
