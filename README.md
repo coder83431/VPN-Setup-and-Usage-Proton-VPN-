@@ -67,7 +67,17 @@ Browse to https://whatismyipaddress.com/ and take note of this in a text file
 
 
 <p>
-<img src = "https://imgur.com/3HF3a21.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src = "https://imgur.com/290CTCp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+
+<p>
+<img src = "https://imgur.com/290CTCp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+
+<p>
+<img src = "https://imgur.com/CFGwidV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 
