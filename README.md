@@ -55,7 +55,7 @@ This tutorial outlines the process of retrieving and observing IP addresses whil
 
 
 <p>
-<img src = "https://imgur.com/3HF3a21.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src = "https://imgur.com/290CTCp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <p>
