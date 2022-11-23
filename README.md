@@ -3,7 +3,7 @@
 </p>
 
 <h1>osTicket - Setup and Usage of Proton VPN </h1>
-This tutorial outlines the process of retrieving and observing IP addresses while using desktops within differnet locations. We will be observing our own desktop IP address, then within a different location within a Azure virtual machine, and then finally through where are device is connected to on Proton VPN.<br />
+This tutorial outlines the process of retrieving and observing IP addresses while using computers in differnet locations which all have different IP addresses. We will be observing our own desktop IP address, then the IP addresses within a different location in a Azure virtual machine. Finally we will observe the final IP address through where our device is connected to on Proton VPN.<br />
 
 
 <h2>Environments and Technologies Used</h2>
@@ -30,7 +30,7 @@ This tutorial outlines the process of retrieving and observing IP addresses whil
 <img src = "https://imgur.com/4SNVlfC.png" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
  <p>
-1. Browse to https://whatismyipaddress.com/ and take note of this in a text file
+1. Browse to https://whatismyipaddress.com/ and take note of your own computer's IP address  in a text file.
 
 </p>                                                                                                    
                                                                                                      
@@ -42,7 +42,7 @@ This tutorial outlines the process of retrieving and observing IP addresses whil
                                                                                                  
                                                                                                  
                                                                                                  
-2.Create a resource group in Microsoft Azure
+2.Create a resource group in Microsoft Azure. Make the resource group be located in a different area than your own computer.
 </p>
 <br />
 
@@ -59,9 +59,9 @@ This tutorial outlines the process of retrieving and observing IP addresses whil
 </p>
 
 <p>
-3. Create a Windows 10 Virtual Machine in another geographic location (try a different country)
+3. Create a Windows 10 Virtual Machine in the location of your resource group (both which is in another geographic location than your own).
 Log into the VM with Remote Desktop
-Browse to https://whatismyipaddress.com/ and take note of this in a text file
+Browse to https://whatismyipaddress.com/ and take note of your VMs IP in a text file.
 </p>
 <br />
 
@@ -80,7 +80,7 @@ Browse to https://whatismyipaddress.com/ and take note of this in a text file
 
 
 <p>
-4. On your actual computer, sign up for the free version of Proton VPN https://account.protonvpn.com/signup?plan=free&language=en. Loginto the VPN server and choose a VPN server within another country than your own. Then browse to  https://whatismyipaddress.com/ once more to view your IP address.
+4. On your actual computer, sign up for the free version of Proton VPN https://account.protonvpn.com/signup?plan=free&language=en. Log into the Proton VPN and choose a VPN server within another country than your own or your Azure VM. Then browse to  https://whatismyipaddress.com/ once more to view your IP address.
 
 </p>
 <br />
@@ -95,7 +95,7 @@ Browse to https://whatismyipaddress.com/ and take note of this in a text file
 
 
 <p>
-5. Try browsing to Google, Disney, and/or Amazon and see if there is anything different about the sites in relation to the location of your VPN server. For example, the language or URL may be different.
+5. Try browsing to Google, Disney, and/or Amazon and see if there is anything different about the sites in relation to the location of your VPN server . Is your  language or URL different?
 
 </p>
 <br />
@@ -106,4 +106,4 @@ Browse to https://whatismyipaddress.com/ and take note of this in a text file
 </p>
 
 
-6. Its now time to clean up your Azure resources. Make sure to delete the resource group and resources you created in Step 2 and ensure to disconnect from the Proton VPN server.
+6. Its now time to clean up your Azure resources. Make sure to delete the resource group and resources you've create and ensure to disconnect from the Proton VPN server.
