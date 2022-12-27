@@ -3,7 +3,8 @@
 </p>
 
 <h1>osTicket - Setup and Usage of Proton VPN </h1>
-This tutorial outlines the process of retrieving and observing IP addresses while using computers in differnet locations which all have different IP addresses. We will be observing our own desktop IP address, then the IP addresses within a different location in a Azure virtual machine. Finally we will observe the final IP address through where our device is connected to on Proton VPN.<br />
+This tutorial outlines the process of retrieving and observing IP addresses while using computers in different locations, which all have different IP addresses. We will observe our own desktop IP address, then the IP addresses within a different location in an Azure virtual machine. Finally, we will observe the final IP address through which our device is connected on Proton VPN.
+.<br />
 
 
 <h2>Environments and Technologies Used</h2>
